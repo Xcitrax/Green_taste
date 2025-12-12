@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+button {
+  border: none;
+}
 body {
   background-color: #b1c68f;
   font-family: sans-serif;
@@ -13,7 +15,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;
+  padding: 0 15px;
 }
 
 .buttons-size {
@@ -57,12 +59,13 @@ header {
 }
 
 .salad img {
-  width: 220px;
+  width: 160px;
 }
 .salad {
   position: absolute;
-  left: 185px;
+  left: 220px;
   margin-top: 40px;
+  overflow-x: hidden;
 }
 .head-wrap {
   height: 250px;
@@ -113,8 +116,26 @@ header {
   font-size: 17px;
   padding: 10px;
 }
-.contact-us-section {
+.Contact-us-section {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
+}
+.menu-buttons button {
+  width: 100px;
+  height: 30px;
+  background-color: #b1c68f;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.menu-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px;
+}
+button:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease;
 }

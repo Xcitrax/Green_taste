@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b1c68f;
+}
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  background-image: url(shxefebi-menu.png);
+  flex-direction: column;
+  gap: 20px;
+  background-repeat: no-repeat;
+  background-position: -120px -10px;
+}
+.sec-logo {
+  width: 20%;
+}
+.smuzzi {
+  width: 100px;
+  position: absolute;
+  margin-bottom: 30px;
+  right: 300px;
+}
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.menu-cards {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  border: 1px solid white;
+  padding: 20px;
+}
+.producte-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 40px;
+  font-weight: bold;
+}
+.producte-stats span {
+  font-size: 21px;
+}
+.producte-stats p {
+  font-size: 35px;
+}
+.soop {
+  width: 170px;
+  position: absolute;
+  margin-bottom: 10px;
+  right: 250px;
+}
+.salad {
+  width: 140px;
+  position: absolute;
+  margin-bottom: 10px;
+  right: 265px;
+}
+
+.smuzzi:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
+.soop:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
+.salad:hover {
+  transform: scale(1.02);
+  transition: 0.2s ease;
+}
