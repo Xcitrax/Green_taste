@@ -134,6 +134,7 @@ header {
   justify-content: space-between;
   gap: 20px;
   padding: 10px;
+  color: black;
 }
 button:hover {
   transform: scale(1.02);
